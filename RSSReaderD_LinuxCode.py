@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-
+# pip install opencv-python --upgrade
+# export QT_QPA_PLATFORM=wayland example for linux
 import sys
 import re
 import json
@@ -7,6 +8,7 @@ import os
 import requests
 import feedparser
 import webbrowser
+import urllib3
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QHBoxLayout, QVBoxLayout,
     QPushButton, QListWidget, QLabel, QLineEdit, QInputDialog, QMessageBox, QSizePolicy, QScrollArea
